@@ -1,0 +1,114 @@
+.grafa_border {
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+}
+
+.grafa_title {
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 23fr;
+}
+.grafa_title .grafa_description {
+  font-size: 10px;
+}
+
+.grafa_input {
+  height: 100%;
+}
+
+.grafa_textarea {
+  width: calc(100% - 20px);
+  height: calc(100% - 25px);
+  border: none;
+  resize: none;
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.grafa_input {
+  margin-left: 10px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+.input {
+  border: none;
+}
+
+.input:hover {
+  background-color: lightgray;
+}
+
+.mainCmrBlank {
+  margin: auto;
+  width: 672px;
+  height: 1060px;
+  border-top: solid black 2px;
+  border-left: solid black 2px;
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+  display: grid;
+  grid-template-rows: 96fr 96fr 192fr 212fr 128fr 16fr 48fr 112fr 80fr 48fr 32fr;
+}
+.mainCmrBlank .l01_logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l02_16 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l03_18 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l03_18 .b03_05 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.mainCmrBlank .l03_18 .b03_05 .grafa4_form {
+  display: grid;
+  grid-template-columns: 3fr 21fr;
+}
+.mainCmrBlank .l03_18 .b17_18 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.mainCmrBlank .l06_12 {
+  display: grid;
+  grid-template-columns: 30fr 6fr 6fr 6fr;
+}
+.mainCmrBlank .l13_19 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l15_20 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l21_24 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.mainCmrBlank .l21_24 .b21_23 {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+.mainCmrBlank .l21_24 .b21_23 .b22_23 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .l25_27 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.mainCmrBlank .l28 {
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+}
+.mainCmrBlank .l29 {
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+}/*# sourceMappingURL=Cmr.module.css.map */
